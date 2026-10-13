@@ -1,0 +1,21 @@
+{
+  "name": "export-cash-recovery",
+  "version": "1.0.0",
+  "description": "Export Cash Recovery: a working prototype (student submission to Razorpay).",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.15"
+  },
+  "scripts": {
+    "seed": "node server/seed.js",
+    "start": "node server/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "vitest": "2.1.9"
+  }
+}
